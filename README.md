@@ -55,6 +55,15 @@ During this project I reinforced and learned some important concepts.
     align-items: center;
 }
 ```
+- change text color on mouseover
+```css
+.container-text h2:hover{
+    color: hsl(47, 88%, 63%);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+```
+
 
 ### Continued development
 

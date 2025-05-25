@@ -61,8 +61,14 @@ body{
     margin-top: 15px;
 }
 
-.container-text h1{
+.container-text h2{
     margin-top: 15px;
+}
+
+.container-text h2:hover{
+    color: hsl(47, 88%, 63%);
+    transition-duration: 0.2s;
+    cursor: pointer;
 }
 
 .container-text p{
