@@ -1,0 +1,126 @@
+/*
+- Yellow: hsl(47, 88%, 63%)
+
+- White: hsl(0, 0%, 100%)
+
+- Gray 500: hsl(0, 0%, 42%)
+- Gray 950: hsl(0, 0%, 7%)
+*/
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree';
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+}
+
+
+.container{
+    margin: 0 auto;
+    display: block;
+    text-align: left;
+    width: 400px;
+    padding: 18px;
+    background: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 10px;
+    box-shadow: 7px 8px 0 hsl(0, 0%, 7%);
+}
+
+.image-card{
+    border-radius: 12px;
+    width: 100%;
+}
+
+.container-learning{
+    text-align: center;
+    width: 80px;
+    padding: 5px 0;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: hsl(47, 88%, 63%);
+}
+
+.container-published{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.container-text{
+    margin-top: 15px;
+}
+
+.container-text h1{
+    margin-top: 15px;
+}
+
+.container-text p{
+    margin-top: 15px;
+    color: hsl(0, 0%, 42%);
+}
+
+.container-avatar{
+    width: auto;
+    height: 30px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.avatar{
+    width: 12%;
+    height: 30px;
+}
+.avatar img{
+    width:30px;
+    height: 30px;   
+}
+.container-avatar p{
+    height: 100%;
+    width: auto;
+    font-weight: 900;
+    color: hsl(0, 0%, 7%);
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    display: none;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (max-width: 451px) {
+    .container{
+        width: 80%;
+    }
+    .avatar{
+    margin-right: 10px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .container{
+        width: 80%;
+    }
+    .avatar{
+    margin-right: 10px;
+    }
+    
+}
