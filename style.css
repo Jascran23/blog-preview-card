@@ -30,11 +30,11 @@ body{
     margin: 0 auto;
     display: block;
     text-align: left;
-    width: 400px;
+    width: 350px;
     padding: 18px;
     background: hsl(0, 0%, 100%);
     border: 1px solid hsl(0, 0%, 7%);
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 7px 8px 0 hsl(0, 0%, 7%);
 }
 
